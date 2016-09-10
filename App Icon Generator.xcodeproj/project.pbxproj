@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636EAEC31D73489B00EE6C7A /* IconSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 636EAEC21D73489B00EE6C7A /* IconSizes.plist */; };
+		63CD7F2C1D72660500A146B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CD7F2B1D72660500A146B9 /* AppDelegate.swift */; };
+		63CD7F2E1D72660500A146B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CD7F2D1D72660500A146B9 /* ViewController.swift */; };
+		63CD7F301D72660500A146B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CD7F2F1D72660500A146B9 /* Assets.xcassets */; };
+		63CD7F331D72660500A146B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CD7F311D72660500A146B9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		636EAEC21D73489B00EE6C7A /* IconSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IconSizes.plist; sourceTree = "<group>"; };
+		63CD7F281D72660500A146B9 /* App Icon Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Icon Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CD7F2B1D72660500A146B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63CD7F2D1D72660500A146B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63CD7F2F1D72660500A146B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63CD7F321D72660500A146B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63CD7F341D72660500A146B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63CD7F251D72660500A146B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63CD7F1F1D72660500A146B9 = {
+			isa = PBXGroup;
+			children = (
+				63CD7F2A1D72660500A146B9 /* App Icon Generator */,
+				63CD7F291D72660500A146B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63CD7F291D72660500A146B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CD7F281D72660500A146B9 /* App Icon Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63CD7F2A1D72660500A146B9 /* App Icon Generator */ = {
+			isa = PBXGroup;
+			children = (
+				63CD7F2B1D72660500A146B9 /* AppDelegate.swift */,
+				63CD7F2D1D72660500A146B9 /* ViewController.swift */,
+				63CD7F2F1D72660500A146B9 /* Assets.xcassets */,
+				63CD7F311D72660500A146B9 /* Main.storyboard */,
+				63CD7F341D72660500A146B9 /* Info.plist */,
+				636EAEC21D73489B00EE6C7A /* IconSizes.plist */,
+			);
+			path = "App Icon Generator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63CD7F271D72660500A146B9 /* App Icon Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CD7F371D72660500A146B9 /* Build configuration list for PBXNativeTarget "App Icon Generator" */;
+			buildPhases = (
+				63CD7F241D72660500A146B9 /* Sources */,
+				63CD7F251D72660500A146B9 /* Frameworks */,
+				63CD7F261D72660500A146B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Icon Generator";
+			productName = "App Icon Generator";
+			productReference = 63CD7F281D72660500A146B9 /* App Icon Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63CD7F201D72660500A146B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "David Frischknecht";
+				TargetAttributes = {
+					63CD7F271D72660500A146B9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U4AQD93XJA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63CD7F231D72660500A146B9 /* Build configuration list for PBXProject "App Icon Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63CD7F1F1D72660500A146B9;
+			productRefGroup = 63CD7F291D72660500A146B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CD7F271D72660500A146B9 /* App Icon Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63CD7F261D72660500A146B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EAEC31D73489B00EE6C7A /* IconSizes.plist in Resources */,
+				63CD7F301D72660500A146B9 /* Assets.xcassets in Resources */,
+				63CD7F331D72660500A146B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63CD7F241D72660500A146B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CD7F2E1D72660500A146B9 /* ViewController.swift in Sources */,
+				63CD7F2C1D72660500A146B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63CD7F311D72660500A146B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63CD7F321D72660500A146B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63CD7F351D72660500A146B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63CD7F361D72660500A146B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		63CD7F381D72660500A146B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4AQD93XJA;
+				INFOPLIST_FILE = "App Icon Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfrisch.appicongenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63CD7F391D72660500A146B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4AQD93XJA;
+				INFOPLIST_FILE = "App Icon Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfrisch.appicongenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63CD7F231D72660500A146B9 /* Build configuration list for PBXProject "App Icon Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CD7F351D72660500A146B9 /* Debug */,
+				63CD7F361D72660500A146B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CD7F371D72660500A146B9 /* Build configuration list for PBXNativeTarget "App Icon Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CD7F381D72660500A146B9 /* Debug */,
+				63CD7F391D72660500A146B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63CD7F201D72660500A146B9 /* Project object */;
+}

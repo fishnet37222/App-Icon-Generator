@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Mac</key>
+	<array>
+		<integer>16</integer>
+		<integer>32</integer>
+		<integer>64</integer>
+		<integer>128</integer>
+		<integer>256</integer>
+		<integer>512</integer>
+		<integer>1024</integer>
+	</array>
+	<key>Android</key>
+	<array>
+		<integer>48</integer>
+		<integer>72</integer>
+		<integer>96</integer>
+		<integer>144</integer>
+		<integer>192</integer>
+		<integer>512</integer>
+	</array>
+	<key>iOS</key>
+	<array>
+		<integer>20</integer>
+		<integer>29</integer>
+		<integer>40</integer>
+		<integer>50</integer>
+		<integer>57</integer>
+		<integer>58</integer>
+		<integer>60</integer>
+		<integer>72</integer>
+		<integer>76</integer>
+		<integer>80</integer>
+		<integer>87</integer>
+		<integer>100</integer>
+		<integer>114</integer>
+		<integer>120</integer>
+		<integer>144</integer>
+		<integer>152</integer>
+		<integer>167</integer>
+		<integer>180</integer>
+	</array>
+</dict>
+</plist>
