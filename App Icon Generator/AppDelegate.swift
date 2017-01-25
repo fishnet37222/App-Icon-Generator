@@ -3,7 +3,7 @@
 //  App Icon Generator
 //
 //  Created by David Frischknecht on 8/27/16.
-//  Copyright © 2016 David Frischknecht. All rights reserved.
+//  Copyright © 2017 David Frischknecht. All rights reserved.
 //
 
 import Cocoa
